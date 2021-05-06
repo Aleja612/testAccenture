@@ -1,0 +1,46 @@
+//Crear un cliente
+{
+    "cedula":1234,
+    "nombre":"Laura",
+    "direccion":"calle 123"
+}
+//crear producto
+{
+    "nombre":"cepillo",
+    "precio":50000,
+    "descripcion":"cepillo x 20 unidades"
+}
+{
+    "nombre":"cobija",
+    "precio":80000,
+    "descripcion":"Cubrelecho"
+}
+
+{
+    "nombre":"caja",
+    "precio":5000,
+    "descripcion":"caja de vidrio"
+}
+//crear una factura
+{
+    "cantidad":1,
+    "cliente":{
+        "cedula": 1234,
+        "nombre":"laura Nieto",
+        "direccion":"calle 123"
+    },
+    "productos":[
+         {"idProducto":2,
+        "nombre": "cobija",
+        "precio": 80000,
+        "descripcion":"Cubrelecho"
+         },
+         {"idProducto":1,
+        "nombre": "cepillo",
+        "precio": 50000,
+        "descripcion":"cepillo x 20 unidades"
+		}
+    ]
+}
+
+
